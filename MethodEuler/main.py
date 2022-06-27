@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 def main():
     eulerMethod = EulerMethod(100)
     t0=0
-    tf=20
-    dt=0.01
+    tf=5
+    dt=0.2
     cte=1
 
     t,F = eulerMethod.eulerExplicit(t0,tf,dt,cte)
