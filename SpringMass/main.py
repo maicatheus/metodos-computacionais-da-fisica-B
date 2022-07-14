@@ -7,8 +7,8 @@ def main():
     k = 1
     m = 1
     t0 = 0
-    tf = 10
-    dt = 0.01
+    tf = 100
+    dt = 0.1
     #dt = 0.05*(2*math.pi*math.sqrt(m/k))
     
     euler = EulerMethod(initial_x,initial_v,k,m,t0,tf,dt)
